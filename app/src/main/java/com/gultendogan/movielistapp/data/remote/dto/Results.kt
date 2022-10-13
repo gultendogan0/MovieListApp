@@ -1,6 +1,7 @@
 package com.gultendogan.movielistapp.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
+import com.gultendogan.movielistapp.domain.model.Movies
 
 data class Results(
     @SerializedName("adult")
@@ -32,4 +33,18 @@ data class Results(
     @SerializedName("vote_count")
     val vote_count: Int
 )
+
+fun Results.toMovies():Movies{
+    return Movies(
+        backdrop_path = backdrop_path,
+        id = id,
+        original_language = original_language,
+        original_title = original_title,
+        overview = overview,
+        poster_path = poster_path,
+        release_date = release_date,
+        title = title,
+        vote_average = vote_average
+    )
+}
 
