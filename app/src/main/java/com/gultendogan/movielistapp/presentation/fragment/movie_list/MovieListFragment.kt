@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.viewbinding.ViewBinding
@@ -30,11 +31,13 @@ class MovieListFragment : BindingFragment<FragmentMovieListBinding>(){
             viewModel.state.collect{ movieListState->
                 if (!movieListState.movies.isNullOrEmpty()){
                     adaper.setList(movieListState.movies.shuffled())
+                    binding.movieListRecyclerView.visibility = View.VISIBLE
                     binding.movieListRecyclerView.adapter = adaper
                 }
                 if (movieListState.error != ""){
-                    println("breakpoint")
+                    binding.movieListErrorText.text = movieListState.error
                 }
+                binding.movieListProgressBar.isVisible = movieListState.isLoading ?: false
             }
         }
     }
