@@ -99,7 +99,7 @@
             android:layout_marginEnd="16dp"
             android:textSize="16sp"
             android:textStyle="bold|normal"
-            android:text="Release Date : 2022-07-27"
+            android:text="6.7"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

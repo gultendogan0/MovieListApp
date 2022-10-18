@@ -29,7 +29,8 @@ class MovieListViewModel @Inject constructor(
                     _state.value = MovieListState(movies = result.data ?: emptyList())
                 }
                 is Resource.Error -> {
-                    _state.value = MovieListState(error = result.message ?:
+                    _state.value = MovieListState(
+                        error = result.message ?:
                     "An unexpected error occured.")
                 }
                 is Resource.Loading -> {

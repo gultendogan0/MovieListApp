@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,10 +16,13 @@
     <fragment
         android:id="@+id/movieDetailFragment"
         android:name="com.gultendogan.movielistapp.presentation.fragment.MovieDetailFragment"
-        android:label="fragment_agent_detail"
+        android:label="fragment_movie_detail"
         tools:layout="@layout/fragment_movie_detail" >
         <action
             android:id="@+id/action_movieDetailFragment_to_movieListFragment"
             app:destination="@id/movieListFragment" />
+        <argument
+            android:name="agentId"
+            app:argType="com.gultendogan.movielistapp.domain.model" />
     </fragment>
 </navigation>
