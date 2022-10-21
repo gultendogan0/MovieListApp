@@ -1,4 +1,4 @@
-package com.gultendogan.movielistapp.presentation.fragment
+package com.gultendogan.movielistapp.presentation.fragment.movie_detail
 
 import com.gultendogan.movielistapp.domain.model.Movies
 

@@ -1,10 +1,9 @@
-package com.gultendogan.movielistapp.presentation.fragment
+package com.gultendogan.movielistapp.presentation.fragment.movie_detail
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import com.gultendogan.movielistapp.common.Constants
 import com.gultendogan.movielistapp.domain.model.Movies
-import com.gultendogan.movielistapp.presentation.fragment.movie_list.MovieListState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import javax.inject.Inject

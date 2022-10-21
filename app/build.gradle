@@ -92,4 +92,7 @@ dependencies {
     implementation 'androidx.palette:palette-ktx:1.0.0'
 
     implementation("androidx.cardview:cardview:1.0.0")
+
+    //SplashScreen
+    implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
 }

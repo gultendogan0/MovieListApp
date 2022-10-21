@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/bunker"
-    tools:context=".presentation.fragment.MovieDetailFragment">
+    tools:context=".presentation.fragment.movie_detail.MovieDetailFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
