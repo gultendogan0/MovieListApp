@@ -11,8 +11,7 @@
 
 </br>
 
-![Adsız](https://user-images.githubusercontent.com/63645518/197327177-32b445ec-7e01-44b0-b46e-d1346bb88167.png)
+<img src="https://user-images.githubusercontent.com/63645518/197327724-a9dda776-8740-4253-9bf3-9eda24789abd.png" width="750" height="750">
 
 </br>
-
 
