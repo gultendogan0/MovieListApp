@@ -2,10 +2,10 @@
 
 ## Project Features :
 
-<div>• Dagger - Hilt</div>
-<div>• Kotlin , Coroutines , Flow</div>
-<div>• MVVM Architecture </div>
-<div>• Retrofit </div>
+<div>:heavy_check_mark: Dagger - Hilt</div>
+<div>:heavy_check_mark: Kotlin , Coroutines , Flow</div>
+<div>:heavy_check_mark: MVVM Architecture </div>
+<div>:heavy_check_mark: Retrofit </div>
 
 <div style="display: flex;">
 
